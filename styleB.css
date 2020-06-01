@@ -1,0 +1,53 @@
+.container-1 {
+display: flex;
+font-family: Tahoma;
+font-size: 40px;
+}
+
+.box-abcde {
+	margin: 10px;
+	flex-basis: 100px;
+    background-color: #dfe1e7;
+    width: 100px;
+    height: 150px;
+    position: left;
+    background-image: radial-gradient(circle at 5px, #D0D0FF 5px, transparent 1px);
+    position: (0,0);
+    background-size: 100% 16.5%;
+
+    }
+
+.box-abcde:hover{
+   background-color : yellow;
+   color: goldenrod;
+   cursor: pointer;
+}
+
+.box-f{
+    background-color: #dfe1e7;
+    width: 100px;
+    height: 150px;
+    background-image: radial-gradient(circle at 5px, #D0D0FF 5px, transparent 1px);
+    background-size: 100% 16.5%;
+
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+
+}
+
+.box-f:hover{
+   background-color : yellow;
+   color: goldenrod;
+   cursor: pointer;
+}
+
+.letter{
+    position: relative;
+    left: 20px;
+}
+
+.F{
+    position: relative;
+    left: 20px;   
+}

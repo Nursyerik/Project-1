@@ -1,0 +1,33 @@
+.container-1 {
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: Tahoma;
+font-size: 40px;
+
+}
+
+.box-abcde {
+	border-top: 1px #687291 solid;
+	margin: 1px;
+	height: 100px;
+	width: 100px;
+    background-color: #dfe1e7;
+    text-align: center;
+    
+    }
+
+
+.box-f {
+	margin: 4px;
+	height: 100px;
+	width: 100px;
+	background-color: #687291;
+	border: 4px #000000 solid;
+	text-align: center;
+
+}
+.F{
+	position: relative;
+	top: 23px;
+}
